@@ -1,0 +1,1 @@
+console.log("JavaScript is easy to learn")
