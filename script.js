@@ -1,17 +1,12 @@
-function logger(){
-    console.log("This is Al Muksid");
+const calcInd = function(indp){
+    return 2025 - indp;
 }
+const BangladeshInd = calcInd(1971);
 
-// calling/ running/ invoking
+const PakisthanInd = calcInd(1947);
 
-logger();
+const IndiaInd = calcInd(1947);
 
-function programmingLanguage(frontend, backend){
-    return `We are using ${frontend} for frontend and ${backend} for backend. `;
-}
+const IraqIndp = calcInd(1932);
 
-const website = programmingLanguage('reactjs, javascripts', 'python, django')
-console.log(website);
-
-const ecommerceWebsite = programmingLanguage('Reactjs, Bootstrap', 'django');
-console.log(ecommerceWebsite);
+console.log(BangladeshInd, PakisthanInd, IndiaInd, IraqIndp)
