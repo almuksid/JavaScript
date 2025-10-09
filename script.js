@@ -1,9 +1,17 @@
-'use strict'
+function logger(){
+    console.log("This is Al Muksid");
+}
 
-let hasJob = false
+// calling/ running/ invoking
 
-const passTest = true
+logger();
 
-if (passTest) hasJob = true
+function programmingLanguage(frontend, backend){
+    return `We are using ${frontend} for frontend and ${backend} for backend. `;
+}
 
-if (hasJob) console.log("You can buy skin care product")
+const website = programmingLanguage('reactjs, javascripts', 'python, django')
+console.log(website);
+
+const ecommerceWebsite = programmingLanguage('Reactjs, Bootstrap', 'django');
+console.log(ecommerceWebsite);
